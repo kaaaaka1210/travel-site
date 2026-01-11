@@ -1,0 +1,261 @@
+div#page {
+    width: 1400px;
+    margin: 0 auto;
+    font-family: "メイリオ","Meiryo";
+}
+/*画像*/
+@keyframes infinity-scroll-left {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+div.photo {
+    display: flex;
+    overflow: hidden;
+}
+ul.slideshow {
+    display: flex;
+    list-syle: none;
+    animation: infinity-scroll-left 50s infinite linear 0.5s both;
+}
+li.photo-slide {
+    width: calc(100vw / 5);
+}
+li.photo-slide > img{
+    width: 130%;
+}
+/*トップページタイトル*/
+a.home-btn {
+    text-decoration:none;
+}
+p.tp-title:hover {
+    opacity: 0.7;
+}
+p.tp-title {
+    text-align: left;
+    padding: 10px 40px 10px 80px;
+    font-family: "游ゴシック体","YuGothic";
+    display: flex;
+    align-items: center;
+}
+span#plan-title1 {
+    font-size: 45px;
+    color: #424242;
+    font-weight: bold;
+    margin: 10px;
+}
+span.futidori {
+    font-weight: bold;
+    font-size: 70px;
+    color: rgba(0,0,0,0);
+    text-shadow: 3px 3px 0 #EF9A9A;
+    -webkit-text-stroke: 1px #4E342E;
+    text-stroke #4E342E;
+}
+span#plan-title2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #64B5F6;
+    background-position: center center;
+    border-radius: 25px 0px 25px 0px;
+    padding: 5px 10px 5px 10px;
+    margin: 20px;
+}
+
+/*メニュー*/
+nav.menu {
+    background: #ECEFF1;
+    margin-bottom: 50px;
+}
+nav.menu ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 3%;
+    width: 94%;
+    max-width: 960px;
+    list-style-type: none;
+}
+nav.menu ul li {
+    position: relative;
+    width: 20%;
+}
+nav.menu ul li:first-child::before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 25%;
+    left: 0px;
+    width: 1px;
+    height: 50%;
+    background-color: #212121;
+}
+nav.menu ul li::after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 25%;
+    right: 0px;
+    width: 1px;
+    height: 50%;
+    background-color: #212121;
+}
+nav.menu ul li a {
+    display: block;
+    padding: 17px 10px;
+    color: #212121;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+nav.menu ul li a.active {
+    border-bottom: 2px solid;
+    border-color: #212121;
+}
+nav.menu ul li a:hover {
+    color: #fff;
+    background-color: #B0BEC5;
+}
+
+/*リード*/
+div.disneylead {
+    margin: 50px 300px 0px 200px;
+}
+p.lead-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+ul.lead-content {
+    border: 5px double #78909C;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px;
+    width: 800px;
+    height: 200px;
+}
+li.lead-item {
+    padding: 20px;
+    margin-left: 75px;
+}
+
+/*スケジュールタイトル*/
+p.scheduletitle {
+    margin: 100px 200px 0px 200px;
+    padding: 0px 0px 10px 100px;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid #FFAB91;
+}
+
+/*ride*/
+div.ride {
+    margin-left: 400px;
+    padding-top: 50px;
+}
+ul.ride-content {
+    line-height: 50px;
+    list-style-type: circle;
+    margin-bottom: 70px
+}
+li.ride-item {
+    font-size: 18px;
+    color: #37474F;
+    font-weight: bold;
+}
+span.ride-addres {
+    color: #1565C0;
+    padding: 50px;
+    font-size: 14px;
+}
+span.ride-text {
+    font-size: 12px;
+    padding: 0px 0px 0px 100px;
+    color: #000;
+}
+
+/*ディズニーページボタン*/
+a.btn {
+    margin-left: 175px;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: initial;
+    border: double 4px #000;
+    border-radius: 30px;
+}
+a.btn:hover {
+    color: #B0BEC5;
+    border: solid 4px #B0BEC5;
+    background-color: #ECEFF1;
+}
+
+/*meal*/
+div.meal {
+    margin-left: 400px;
+    padding-top: 50px;
+}
+ul.meal-content {
+    line-height: 50px;
+    list-style-type: circle;
+    margin-bottom: 70px
+}
+li.meal-item {
+    font-size: 18px;
+    color: #37474F;
+    font-weight: bold;
+}
+span.meal-addres {
+    color: #1565C0;
+    padding: 50px;
+    font-size: 14px;
+}
+span.meal-text {
+    font-size: 12px;
+    padding: 0px 0px 0px 100px;
+    color: #000;
+}
+
+/*goods*/
+div.goods {
+    margin-left: 350px;
+    padding-top: 50px;
+}
+#goods-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #455A64;
+    padding: 20px;
+}
+table td {
+    border: 1px solid;
+    padding: 10px;
+}
+.goods-item td {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+}
+td.goods-name {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #90A4AE;
+    color: #fff;
+}
+.none {
+    border: none;
+    height: 80px;
+}
+    
+/*フッター*/
+p.footer {
+    color: #fff;
+    background-color: #B0BEC5;
+    phonto-size: 10px;
+    text-align: center;
+    margin: 80px 100px 80px 100px;
+    padding: 60px 80px 60px 80px;
+}
