@@ -1,0 +1,296 @@
+div#page {
+    width: 1400px;
+    margin: 0 auto;
+    font-family: "メイリオ","Meiryo";
+}
+/*画像*/
+@keyframes infinity-scroll-left {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+div.photo {
+    display: flex;
+    overflow: hidden;
+}
+ul.slideshow {
+    display: flex;
+    list-style-type: none;
+    animation: infinity-scroll-left 50s infinite linear 0.5s both;
+}
+li.photo-slide {
+    width: calc(100vw / 5);
+}
+li.photo-slide > img{
+    width: 130%;
+}
+
+/*トップページタイトル*/
+a.home-btn {
+    text-decoration:none;
+}
+p.tp-title:hover {
+    opacity: 0.7;
+}
+p.tp-title {
+    text-align: left;
+    padding: 10px 40px 10px 80px;
+    font-family: "游ゴシック体","YuGothic";
+    display: flex;
+    align-items: center;
+}
+span#plan-title1 {
+    font-size: 45px;
+    color: #424242;
+    font-weight: bold;
+    margin: 10px;
+}
+span.futidori {
+    font-weight: bold;
+    font-size: 70px;
+    color: rgba(0,0,0,0);
+    text-shadow: 3px 3px 0 #EF9A9A;
+    -webkit-text-stroke: 1px #4E342E;
+}
+span#plan-title2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #64B5F6;
+    background-position: center center;
+    border-radius: 25px 0px 25px 0px;
+    padding: 5px 10px 5px 10px;
+    margin: 20px;
+}
+
+/*メニュー*/
+nav.menu {
+    background: #ECEFF1;
+    margin-bottom: 50px;
+}
+nav.menu ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 3%;
+    width: 94%;
+    max-width: 960px;
+    list-style-type: none;
+}
+nav.menu ul li {
+    position: relative;
+    width: 20%;
+}
+nav.menu ul li:first-child::before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 25%;
+    left: 0px;
+    width: 1px;
+    height: 50%;
+    background-color: #212121;
+}
+nav.menu ul li::after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 25%;
+    right: 0px;
+    width: 1px;
+    height: 50%;
+    background-color: #212121;
+}
+nav.menu ul li a {
+    display: block;
+    padding: 17px 10px;
+    color: #212121;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+nav.menu ul li a.active {
+    border-bottom: 2px solid;
+    border-color: #212121;
+}
+nav.menu ul li a:hover {
+    color: #fff;
+    background-color: #B0BEC5;
+}
+
+/*リード*/
+div.day2lead {
+    margin: 50px 300px 0px 200px;
+}
+p.lead-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+ul.lead-content {
+    border: 5px double #78909C;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px;
+    width: 800px;
+    height: 200px
+}
+li.lead-item {
+    padding: 20px;
+    margin-left: 75px;
+}
+
+/*スケジュールタイトル*/
+p.scheduletitle {
+    margin: 100px 200px 0px 200px;
+    padding: 0px 0px 10px 100px;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid #FFAB91;
+}
+
+/*星光大道*/
+div.avenueofstars {
+    padding: 50px 100px 50px 300px;
+    display: flex;
+}
+#avenue-map {
+    width: 430px;
+    height: 320px;
+}
+.avenue-text {
+    margin: 50px;
+    line-height: 60px;
+}
+.point {
+    color: #C62828;
+}
+
+/*女人街*/
+div.street {
+    padding: 50px 100px 50px 300px;
+    display: flex;
+}
+#street-map {
+    width: 430px;
+    height: 320px;
+}
+.street-text {
+    margin: 50px;
+    line-height: 60px;
+}
+
+/*黄大仙*/
+div.chukun {
+    padding: 50px 100px 50px 300px;
+    display: flex;
+}
+#chukun-map {
+    width: 430px;
+    height: 320px;
+}
+.chukun-text {
+    margin: 50px;
+    line-height: 60px;
+}
+
+/*ホテル*/
+div.hotel {
+    padding: 30px 30px 30px 60px;
+    margin: 100px 300px 100px 300px;
+    border: 1px dotted;
+}
+p#hotel-title {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 10px 10px 30px;
+    color: #546E7A;
+}
+iframe#tohotelmap {
+    width: 500px;
+    height: 200px;
+    margin: 30px 80px 50px 80px;
+}
+ul.hotel-content {
+    padding-left: 70px;
+}
+li.hotel-item {
+    font-size: 18px;
+    list-style-type: circle;
+    padding: 10px 20px 20px 0px;
+    line-height: 50px;
+}
+span.hotel-cost {
+    font-size: 13px;
+    padding: 60px;
+    color: #B71C1C;
+}
+span.hotel-ex {
+    font-size: 14px;
+    padding-left: 15px;
+}
+li.hotel-item a {
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 7px;
+    margin-left: 450px;
+    background-color: #ECEFF1;
+    border-bottom: 2px solid;
+    border-radius: 15px;
+}
+li.hotel-item a:visited {
+    color: initial;
+}
+li.hotel-item a:hover {
+    color: #fff;
+    background-color: #90A4AE;
+    border-top: 1px solid #000;
+}
+iframe#hotel-map {
+    width: 600px;
+    height: 400px;
+    margin: 20px 0px 50px 25px;
+}
+
+/*次の日へ*/
+.next {
+    text-align: center;
+    margin: 50px;
+}
+#next {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 40px;
+}
+span#arrow-mini {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0px 0px 1px 5px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(45deg);
+}
+#next:visited {
+    color: initial;
+}
+#next:hover {
+    background-color: #BDBDBD;
+    color: #fff;
+    border: #000;
+}
+
+/*フッター*/
+p.footer {
+    color: #fff;
+    background-color: #B0BEC5;
+    font-size: 10px;
+    text-align: center;
+    margin: 80px 100px 80px 100px;
+    padding: 60px 80px 60px 80px;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>１日目[香港旅行]</title>
+    <link rel="stylesheet" href="./day1.css">
+  </head>
+  <body>
+    <div id="page">
+      <header>
+	<div class="photo">
+          <ul class="slideshow">
+            <li class="photo-slide">
+              <img src="../../photos/pexels-arnie-chou-927485.jpg" alt="img">
+            </li>
+            <li class="photo-slide">
+              <img src="../../photos/pexels-jimmy-chan-2300342.jpg" alt="img">
+            </li>
+            <li class="photo-slide">
+              <img src="../../photos/pexels-aleksandar-pasaric-2481626.jpg" alt="img">
+            </li>
+            <li class="photo-slide">
+              <img src="../../photos/pexels-ansel-lee-3130060.jpg" alt="img">
+            </li>
+          </ul>
+          <ul class="slideshow">
+            <li class="photo-slide">
+              <img src="../../photos/pexels-arnie-chou-927485.jpg" alt="img">
+            </li>
+            <li class="photo-slide">
+              <img src="../../photos/pexels-jimmy-chan-2300342.jpg" alt="img">
+            </li>
+            <li class="photo-slide">
+              <img src="../../photos/pexels-aleksandar-pasaric-2481626.jpg" alt="img">
+            </li>
+            <li class="photo-slide">
+              <img src="../../photos/pexels-ansel-lee-3130060.jpg" alt="img">
+            </li>
+          </ul>
+        </div>
+        <a href="../../index.html" class="home-btn">
+	  <p class="tp-title">
+	    <span id="plan-title1">学生向け</span><span class="futidori">香港旅行</span><span id="plan-title2">2泊3日</span>
+	  </p>
+	</a>
+	<nav class="menu">
+          <ul class="menu">
+            <li class="menu-content"><a href="../../index.html">Home</a></li>
+            <li class="menu-content"><a class="active" href="./day1.html">day1</a></li>
+            <li class="menu-content"><a href="../day2/day2.html">day2</a></li>
+            <li class="menu-content"><a href="../day3/day3.html">day3</a></li>
+	    <li class="menu-content"><a href="../../disney/disney.html">hong-kong disney</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="day1lead">
+	<p class="lead-title">
+	  1日目のスケジュール
+	</p>
+	<ul class="lead-content">
+	  <li class="lead-item">香港国際空港到着</li>
+	  <li class="lead-item">ディスカバリーベイでショッピング</li>
+	  <li class="lead-item">ビクトリアハーバーで夜景</li>
+      </div>
+      <p class="scheduletitle">
+	香港国際空港に到着
+      </p>
+      <div class="airplane">
+	<div class="airplane-figure">
+	  <div class="airport"><p class="airport-title">東京(TYO)</p><p class="airport-text">羽田空港9:55</p></div>
+	  <div class="airport arrow"></div>
+	  <div class="airport"><p class="airport-title">香港(HKG)</p><p class="airport-text">香港国際空港13:30</p></div>
+	  <p class="airplane-text">例：8月30～9月１日の2泊3日の場合</p>
+	</div>
+	<div class="airplane-content">
+          <p class="airplane-content-text">
+	    最安:￥1,8100/1人<br>
+            フライト時間:4時間35分<br>
+	  </p>
+	  <a id="jalbtn" href="https://www.jal.co.jp/jp/ja/" target="_bl\ank" rel="noopener noreferrer">JALで飛行機を調べる</a>
+	</div>
+      </div>
+      <div class="octopus">
+	<span id="figure">！</span>香港国際空港に着いたら、まずは<a href="https://renovation-taiken.com/hongkonglife/octopus">オクトパスカード</a>(HK$150)を買いましょう。
+      </div>
+      <p class="scheduletitle">
+        ディスカバリーベイでショッピング
+      </p>
+      <div class="maptobay">
+	<iframe id="maptobay" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d236211.7124862635!2d113.84623175297925!3d22.323099684957363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x3403e2f3cc46c69d%3A0xf9f590821892369e!2z6aaZ5rivIENoZWsgTGFwIEtvaywgU2t5IFBsYXphIFJvYWQsIOmmmea4r-Wbvemam-epuua4rw!3m2!1d22.3134736!2d113.91372829999999!4m5!1s0x3403fdb305a72c87%3A0xeb398b554ee46754!2sDB%20North%20Plaza%2C%20Seaview%20Office%2C%20Lantau%20Island%2C%20%E9%A6%99%E6%B8%AF!3m2!1d22.308116!2d114.01701!5e0!3m2!1sja!2sjp!4v1689241684278!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<p class="maptobay-text">
+	  香港国際空港を出たら、ディスカバリーベイの<br>
+	  DB North Plazaまで行きましょう！<br>
+	  電車と徒歩の約30分強で到着します。<br>
+	  <span id="maptobay-text">※その他のオプションをクリックすることで詳細を確認できます。</span>
+	</p>
+      </div>
+      <div class="discoverybay">
+	<iframe id="discoverybay" src="https://www.google.com/maps/d/embed?mid=1KxfBiuOL7VO9ZaBfkDBoRVNcwGyh0Kw&ehbc=2E312F" ></iframe>
+	<p class="bay-text">
+	  ディスカバリーベイのショッピングプラザは<br>
+	  <span id="plaza">・DB North Plaza<br>
+	    ・DB Plaza<br></span>
+	  の2つがあり、徒歩で30分、電車なら10分ほどで<br>
+	  行き来できるので、美しい景色を見ながら<br>
+	  ショッピングや食事を楽しむことができます。
+	</p>
+      </div>
+      <p class="scheduletitle">
+        ビクトリアハーバーで夜景
+      </p>
+      <div class="victoriaharbour">
+	<iframe id="victoriaharbour" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d118104.82820012371!2d113.9994275893106!3d22.32431427949892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x3403fdb306e5a003%3A0x6908b80aae8b7f94!2sDb%20North%20Plaza%2C%2092%20Siena%20Avenue%2C%20Discovery%20Bay%2C%20%E9%A6%99%E6%B8%AF!3m2!1d22.3081051!2d114.01660469999999!4m5!1s0x340400ed2cd920d9%3A0xd98f49a2e716dca7!2z6aaZ5rivIEFkbWlyYWx0eSwg44OT44Kv44OI44Oq44Ki44O744OP44O844OQ44O8!3m2!1d22.2898103!2d114.1715588!5e0!3m2!1sja!2sjp!4v1689244523231!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<p class="harbour-text">
+	  ディスカバリーベイの後はラストに綺麗な夜景！<br>
+	  DB North Plazaから電車で1時間弱で到着します。<br>
+	  <span id="point">”100万ドルの夜景”ビクトリアハーバー</span>の<br>美しい景色をお楽しみください！<br>
+	</p>
+      </div>
+      <div class="hotel">
+	<p id="hotel-title">
+	  1日目のおすすめ宿泊ホテル
+	</p>
+	<ul class="hotel-content">
+	  <li class="hotel-item">ドーセット ワンチャイ 香港<span class="hotel-cost">1泊1人・・・約￥6580</span><br><span class="hotel-ex">ヴィクトリアハーバーからは少し遠いですが、お値段を抑えることができます！</span><a href="https://www.booking.com/hotel/hk/cosmopolitan.ja.html?aid=2311236&label=ja-jp-booking-desktop-BHnNeYLM9gY4C%2AoRsvVUKgS655523704762%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp1009292%3Ali%3Adec%3Adm&sid=192d2857eb828a202144ea39056cb304&all_sr_blocks=5505802_361100709_2_2_0;checkin=2023-08-30;checkout=2023-08-31;dest_id=-1353149;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=5505802_361100709_2_2_0;hpos=1;matching_block_id=5505802_361100709_2_2_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=5505802_361100709_2_2_0__74250;srepoch=1689552339;srpvid=e10200a858e10094;type=total;ucfs=1&#hotelTmpl" target="_blank">Booking.com</a></li>
+	  <li class="hotel-item">The Kowloon Hotel<span class="hotel-cost">1泊1人・・・約￥8269</span><br><span class="hotel-ex">ヴィクトリアハーバーからとても近いので美しい景色を楽しみながら休むことができます！</span><a href="https://www.booking.com/hotel/hk/kowloon.ja.html?aid=2311236&label=ja-jp-booking-desktop-BHnNeYLM9gY4C%2AoRsvVUKgS655523704762%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp1009292%3Ali%3Adec%3Adm&sid=192d2857eb828a202144ea39056cb304&all_sr_blocks=0_0_2_0_0;checkin=2023-08-30;checkout=2023-08-31;dest_id=-1353149;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=11;highlighted_blocks=0_0_2_0_0;hpos=11;matching_block_id=0_0_2_0_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=0_0_2_0_0__83011;srepoch=1689552339;srpvid=e10200a858e10094;type=total;ucfs=1&#hotelTmpl" target="_blank">Booking.com</a></li>
+	</ul>
+	<iframe id="hotel-map" src="https://www.google.com/maps/d/embed?mid=1FbRfKZtn1sKmzLUsEV_4XCXZC-UQAJs&ehbc=2E312F"></iframe>
+      </div>
+      <div class="next">
+	<a id="next" href="../day2/day2.html">next day <span id="arrow-mini"></span></a>
+      </div>
+      <footer>
+	<p class="footer">
+          東京理科大学工学部情報工学科
+          <br>
+          4623052　徐佳可
+          <br>
+          2023.7.24
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

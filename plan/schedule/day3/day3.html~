@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>３日目[香港旅行]</title>
+    <link rel="stylesheet" href="./day3.css">
+  </head>
+  <div id="page">
+    <body>
+      <header>
+        <div class="photo">
+          <ul class="slideshow">
+            <li class="photo-slide">
+              <img src="..\..\photos\pexels-arnie-chou-927485.jpg">
+            </li>
+            <li class="photo-slide">
+              <img src="..\..\photos\pexels-jimmy-chan-2300342.jpg">
+            </li>
+            <li class="photo-slide">
+              <img src="..\..\photos\pexels-aleksandar-pasaric-2481626.jpg">
+            </li>
+            <li class="photo-slide">
+              <img src="..\..\photos\pexels-ansel-lee-3130060.jpg">
+            </li>
+          </ul>
+          <ul class="slideshow">
+            <li class="photo-slide">
+              <img src="..\..\photos\pexels-arnie-chou-927485.jpg">
+            </li>
+            <li class="photo-slide">
+              <img src="..\..\photos\pexels-jimmy-chan-2300342.jpg">
+            </li>
+            <li class="photo-slide">
+              <img src="..\..\photos\pexels-aleksandar-pasaric-2481626.jpg">
+            </li>
+            <li class="photo-slide">
+              <img src="..\..\photos\pexels-ansel-lee-3130060.jpg">
+            </li>
+          </ul>
+        </div>
+	<a href="../../index.html" class="home-btn">
+          <p class="tp-title">
+            <span id="plan-title1">学生向け</span><span class="futidori">香港旅行</span><span id="plan-title2">2泊3日</span>
+          </p>
+        </a>
+      <nav class="menu">
+        <ul class="menu">
+          <li class="menu-content"><a href="../../index.html">Home</a></li>
+          <li class="menu-content"><a href="../day1/day1.html">day1</a></li>
+          <li class="menu-content"><a href="../day2/day2.html">day2</a></li>
+          <li class="menu-content"><a class="active" href="../day3/day3.html">day3</a></li>
+	   <li class="menu-content"><a href="../../disney/disney.html">hong-kong disney</a></li>
+        </ul>
+      </nav>
+      </header>
+       <div class="day3lead">
+        <p class="lead-title">
+          3日目のスケジュール
+        </p>
+        <ul class="lead-content">
+          <li class="lead-item">香港ディズニーリゾート</li>
+          <li class="lead-item">香港国際空港</li>
+       </div>
+       <p class="scheduletitle">
+        香港ディズニーリゾート
+      </p>
+      <div class="disney">
+        <iframe id="disney-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.075965710715!2d114.03651829678957!3d22.31296660000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fc2f53d3953d%3A0x35b3af6ce4475405!2z6aaZ5riv44OH44Kj44K644OL44O844Op44Oz44OJ44O744Oq44K-44O844OI!5e0!3m2!1sja!2sjp!4v1689681783528!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p class="disney-text">
+          いよいよ香港ディズニーリゾート！<br>
+          ディズニーの香港料理が食べられたり日本にはない<br>
+	  アトラクションもあるので思いっきり楽しみましょう！<br>
+	</p>
+	</div>
+      <a href="../../disney/disney.html" id="disney-text-point">香港ディズニーの楽しみ方はこちら</a>
+      <div class="disney-site">
+	<img id="disney-img" src="\\wsl.localhost\Ubuntu-20.04\root\jwww\plan\photos\disneypexels-david-guerrero-8183994.jpg">
+      </div>
+      <p class="scheduletitle">
+        香港国際空港
+      </p>
+      <iframe id="airplane-map" src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d25897.26914863846!2d139.8649759!3d35.7714792!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x3403fc2f53d3953d%3A0x35b3af6ce4475405!2z6aaZ5rivIExhbnRhdSBJc2xhbmQsIOmmmea4r-ODh-OCo-OCuuODi-ODvOODqeODs-ODieODu-ODquOCvuODvOODiA!3m2!1d22.3129666!2d114.0412819!4m5!1s0x3403e2f3cc46c69d%3A0xf9f590821892369e!2z6aaZ5riv5Zu96Zqb56m65rivLCDpppnmuK8gQ2hlayBMYXAgS29rLCBTa3kgUGxhemEgUmQsIDHomZ8!3m2!1d22.3134736!2d113.91372829999999!5e0!3m2!1sja!2sjp!4v1689693964795!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="airplane">
+        <div class="airplane-figure">
+          <div class="airport"><p class="airport-title">香港(HKG)</p><p class="airport-text">香港国際空港15:15</p></div>
+          <div class="airport arrow"></div>
+          <div class="airport"><p class="airport-title">東京(TYO)</p><p class="airport-text">羽田空港20:25</p></div>
+          <p class="airplane-text">例：8月30～9月１日の2泊3日の場合</p>
+        </div>
+        <div class="airplane-content">
+          <p class="airplane-content-text">
+            最安:￥25,500/1人<br>
+            フライト時間:4時間10分<br>
+          </p>
+          <a id="jalbtn" href="https://www.jal.co.jp/jp/ja/" target="_bl\ank" rel="noopener noreferrer">JALで飛行機を調べる</a>
+        </div>
+      </div>
+      <div class="octopus">
+        <span id="figure">！</span>香港国際空港に着いたら、<a href="https://renovation-taiken.com/hongkonglife/octopus">オクトパスカード</a>の返却を忘れずに！
+      </div>
+      <footer>
+        <p class="footer">
+          東京理科大学工学部情報工学科
+          <br>
+          4623052　徐佳可
+          <br>
+          2023.7.24
+        </p>
+      </footer>
+    </body>
+  </div>
+</html>

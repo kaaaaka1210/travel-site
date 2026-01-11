@@ -1,0 +1,242 @@
+div#page {
+    width: 1400px;
+    margin: 0 auto;
+    font-family: "メイリオ","Meiryo";
+}
+/*画像*/
+@keyframes infinity-scroll-left {
+    from {
+	transform: translateX(-50%);
+    }
+    to {
+	transform: translateX(-100%);
+    }
+}
+div.photo {
+    display: flex;
+    overflow: hidden;
+}
+ul.slideshow {
+    display: flex;
+    list-style-type: none;
+    animation: infinity-scroll-left 50s infinite linear 0.5s both;
+}
+li.photo-slide {
+    width: calc(100vw / 5);
+}
+li.photo-slide > img{
+    width: 130%;
+}
+
+/*トップページタイトル*/
+a.home-btn {
+    text-decoration:none;
+}
+p.tp-title:hover {
+    opacity: 0.7;
+}
+p.tp-title {
+    text-align: left;
+    padding: 10px 40px 10px 80px;
+    font-family: "游ゴシック体","YuGothic";
+    display: flex;
+    align-items: center;
+}
+span#plan-title1 {
+    font-size: 45px;
+    color: #424242;
+    font-weight: bold;
+    margin: 10px;
+}
+span.futidori {
+    font-weight: bold;
+    font-size: 70px;
+    color: rgba(0,0,0,0);
+    text-shadow: 3px 3px 0 #EF9A9A;
+    -webkit-text-stroke: 1px #4E342E;
+}
+span#plan-title2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #64B5F6;
+    background-position: center center;
+    border-radius: 25px 0px 25px 0px;
+    padding: 5px 10px 5px 10px;
+    margin: 20px;
+}
+
+/*メニュー*/
+nav.menu {
+    background: #ECEFF1;
+    margin-bottom: 50px;
+}
+nav.menu ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 3%;
+    width: 94%;
+    max-width: 960px;
+    list-style-type: none;
+}
+nav.menu ul li {
+    position: relative;
+    width: 20%;
+}
+nav.menu ul li:first-child::before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 25%;
+    left: 0px;
+    width: 1px;
+    height: 50%;
+    background-color: #212121;
+}
+nav.menu ul li::after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 25%;
+    right: 0px;
+    width: 1px;
+    height: 50%;
+    background-color: #212121;
+}
+nav.menu ul li a {
+    display: block;
+    padding: 17px 10px;
+    color: #212121;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+nav.menu ul li a.active {
+    border-bottom: 2px solid;
+    border-color: #212121;
+}
+nav.menu ul li a:hover {
+    color: #fff;
+    background-color: #B0BEC5;
+}
+
+/*リード*/
+p#lead {
+    font-size: 20px;
+    padding: 10px 60px 10px 120px; 
+}
+
+/*地図*/
+div.map {
+    margin: 10px;
+    padding: 50px 200px 50px 200px;
+    border-top: 1px solid;
+}
+p.map-text {
+    font-size: 15px;
+    margin-left: 200px;
+    padding-left: 200px;
+}
+span.pin {
+  display: inline-block;
+  vertical-align: middle;
+  color: #333;
+  line-height: 1;
+  position: relative;
+  width: 0.8em;
+  height: 0.8em;
+  background: currentColor;
+  border: 0.1em solid currentColor;
+  border-radius: 40% 60% 0% 100% / 40% 100% 0% 60%;
+  box-sizing: content-box;
+  transform: rotate(45deg);
+}
+span.pin::before {
+  content: '';
+  position: absolute;
+  top: 18%;
+  left: 18%;
+  width: 0.336em;
+  height: 0.336em;
+  background: #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+iframe.map {
+    width: 300px;
+    height: 300px;
+}
+div.content {
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 40px;
+}
+p.content-text {
+    padding: 10px;
+    font-size: 18px;
+}
+.map .content {
+    float: left;
+    width: 300px;
+}
+
+/*スケジュール*/
+.plan {
+    margin: 30px 200px 0px 200px;
+    padding: 60px 50px 0px 100px;
+    border: 3px double #90A4AE;
+    border-radius: 5%;
+}
+.plan-day {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+  padding-bottom: 70px;
+  width: 1100px;
+  display: flex;
+  align-items: center;
+}
+.plan-number {
+  position: relative;
+  margin-right: 40px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: #90CAF9;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.plan-line {
+  position: absolute;
+  top: -55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 4px;
+  height: 60px;
+  background: #90A4AE;
+}
+div.plan-title {
+  margin-right: 10px;
+  flex-basis: 200px;
+  color: #616161;
+  font-size: 24px;
+  font-weight: bold;
+}
+ul.plan-text {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/*フッター*/
+p.footer {
+    color: #fff;
+    background-color: #B0BEC5;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    padding: 60px 80px 60px 80px;
+}
